@@ -18,7 +18,7 @@ namespace UnitMSStoretest
         [ClassInitialize]
         public static void ClassInit(TestContext ctx)
         {
-             caps = new ChromeOptions().ToCapabilities();
+            caps = new ChromeOptions().ToCapabilities();
             varctx = ctx;
 
             DesiredCapabilities dc = new DesiredCapabilities("chrome", string.Empty, new Platform(PlatformType.Any));
@@ -28,7 +28,7 @@ namespace UnitMSStoretest
             //below line for Edge
             
             //driver.Manage().Window.Maximize();
-            
+            //just to show some change going through a branch.
         }
 
         [TestInitialize]
