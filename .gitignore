@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.suo
+/UnitMSStoretest/packages/
+/UnitMSStoretest/TestResults
+/UnitMSStoretest/UnitMSStoretest/bin/
+/UnitMSStoretest/UnitMSStoretest/obj/
